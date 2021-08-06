@@ -22,8 +22,6 @@ const App = () => {
     fetchItems();
   }, [query]);
 
-  console.log('Query--->>', query);
-
   return (
     <div className='App'>
       <Header />
